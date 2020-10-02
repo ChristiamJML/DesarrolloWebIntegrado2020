@@ -1,0 +1,92 @@
+/* =================================================================== */
+/* Styles Switcher
+====================================================================== */
+
+#style-switcher h3 {
+	color:#fff;
+	font-size:12px;
+	margin: 5px 0 5px 1px;
+}
+
+#style-switcher {
+	background: #303030;
+	width: 210px;
+	position:fixed;
+	top:50px;
+	z-index: 9;
+	left: -210px;
+}
+
+#style-switcher.open {
+	left: 0;
+}
+
+#style-switcher div {
+	padding: 5px 10px;
+}
+
+#style-switcher h2 {
+	background: #404040;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0;
+	font-size: 13px;
+	padding: 14px 0 12px 10px;
+}
+
+#style-switcher h2 a {
+	background: url("../images/switcher.png") no-repeat 9px center transparent;
+	background-color: #404040;
+	display: block;
+	height: 41px;
+	position: absolute;
+	right: -39px;
+	text-indent: -9999px;
+	top: 0;
+	width: 39px;
+}
+
+.colors { list-style:none; margin:0px 0px 10px 0px; overflow: hidden}
+.colors li { float:left; margin:2px; }
+.colors li a { display: block; width:15px; height:15px; cursor: pointer;} 
+
+#skin-style {
+	clear: both;
+	padding: 5px;
+	border: none;
+	width: 185px;
+	margin: 0 0 12px 1px;
+	color: #666;
+	cursor: pointer;
+}
+
+#reset {margin: 0 0 15px 2px;}
+
+.blue { background: #143966; }
+.green { background: #619d21; }
+.orange {background: #b7531d; }
+.teal { background: #0db0bf; }
+.yellow { background: #d0a202; }
+.cement { background :#837155; }
+.crimson { background :#d0103f; }
+.red { background: #a00000; }
+.pink { background: #b2377f; }
+.purple { background: #7f2a7c; }
+
+.no-img { background: #fff; }
+.bg1 { background-image: url(../images/body-bg1.png); }
+.bg2 { background-image: url(../images/body-bg2.png); }
+.bg3 { background-image: url(../images/body-bg3.png); }
+.bg4 { background-image: url(../images/body-bg4.png); }
+.bg5 { background-image: url(../images/body-bg5.png); }
+.bg6 { background-image: url(../images/body-bg6.png); }
+.bg7 { background-image: url(../images/body-bg7.png); }
+.bg8 { background-image: url(../images/body-bg8.png); }
+.bg9 { background-image: url(../images/body-bg9.png); }
+.bg10 { background-image: url(../images/body-bg10.png); }
+.bg11 { background-image: url(../images/body-bg11.png); }
+.bg12 { background-image: url(../images/body-bg12.png); }
+
+.colors li a.active { box-shadow:0 0 0 2px #505050 inset }
+
+@media only screen and (max-width: 768px) { #style-switcher { display: none; } }

@@ -1,0 +1,101 @@
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 939px) {
+	.container { width: 750px; }
+
+	.form input[type="text"], .form textarea { width: 229px; }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {
+		width: 470px;
+		margin: auto;
+	}
+
+	header { margin-top: 15px; }
+
+	#logo { float: left !important; }
+	#social-media { float: right !important; }
+
+	#main-menu { clear: both; }
+	#main-menu > ul > li { margin: 0 0 0 20px; }
+	#main-menu > ul > li:after { content: ''; background: none; }
+
+	.flex-caption h1 { font-size: 20px; margin: 15px 0; }
+
+	.flex-control-nav { display: none; }
+
+	.photo-id img { margin: auto; }
+
+	.skills { margin-bottom: 25px; }
+
+	.job .nine.column { float: left !important; width: 75% !important; }
+	.job .description { float: left !important; width: 25% !important; }
+
+	.portfolio-filter h5 { margin-bottom: 10px !important; }
+	.portfolio-item { float: left !important; width: 50% !important; }
+	
+	.services-item { margin-bottom: 15px !important; }
+	.service-item h4 > .icon, .service-item h4 > div { float: left !important; }
+
+	#map { height: 200px; }
+
+	.form input[type="text"], .form textarea { width: 100%; margin-left: 0 !important; }
+
+	.pricing-table { margin-bottom: 20px !important; }
+
+	footer .copyright { float: left; }
+	footer .more-desc { float: right; }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	.container {
+		width: 300px;
+		margin: auto;
+	}
+
+	header { margin-top: 15px; }
+
+	#logo, #social-media { text-align: center; }
+	#social-media li { float: none; display: inline-block; }
+
+	#main-menu { padding: 0; }
+	#main-menu > ul > li { margin: 0 0 0 6px; }
+	#main-menu > ul > li:after { content: ''; background: none; }
+	#main-menu > ul > li > a { font-size: 13px; }
+
+	.flex-caption h1 { font-size: 16px; margin: 10px 0; }
+	.flex-caption a { margin-left: 5px; }
+
+	.flex-direction-nav a { height: 50px; }
+	.flex-direction-nav .flex-next { background-position: -35px -80px; }
+	.flex-direction-nav .flex-prev { background-position: 0 -80px; }
+
+	.flex-direction-nav .flex-next:hover { background-position: -35px -10px; }
+	.flex-direction-nav .flex-prev:hover { background-position: 0 -10px; }
+
+	.flex-control-nav { display: none; }
+
+	.photo-id img { margin: auto; }
+
+	.skills { margin-bottom: 25px; }
+
+	.job .description { text-align: left; margin-bottom: 15px; border-bottom: 1px solid #ccc; padding-bottom: 15px; }
+
+	.portfolio-filter h5 { border: none; padding-left: 0 !important; text-align: center; }
+	.portfolio-filter ul { text-align: center; }
+	.portfolio-filter li { float: none; display: inline-block; margin: 10px 7px 0 0; }
+
+	.services-item { margin-bottom: 15px !important; }
+	.service-item h4 > .icon, .service-item h4 > div { float: left !important; }
+
+	#map { height: 160px; }
+
+	.form input[type="text"], .form textarea { width: 100%; margin-left: 0 !important; }
+
+	.pricing-table { margin-bottom: 20px !important; }
+
+	footer .copyright { text-align: center; margin-bottom: 10px; }
+	footer .more-desc { text-align: center; }
+}

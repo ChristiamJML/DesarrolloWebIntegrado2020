@@ -1,0 +1,10 @@
+﻿Inicio: 04/10/2014 01:39 a.m.
+
+D:\CHRISTIAM PC\WEB\painter\image - con errores - Error en la operación de colocar porque image no existe en el sitio local.
+
+Actividad de archivo incompleta. No se completaron 1 archivos o carpetas.
+
+Archivos con errores: 1
+D:\CHRISTIAM PC\WEB\painter\image
+
+Fin: 04/10/2014 01:39 a.m.
